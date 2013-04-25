@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Ciao Applicazione 
+</title>
+</head>
+
+</script>
+<body>
+<button id="silly" value=sillyvalue>Do it </button>
+<button id="clear" value=sillyvalue>Clear </button>
+<div id="results"></div>
+<script src="zepto.js"></script>
+<script src="silly.js"></script>
+<script>
+$('#silly').click(function()
+{
+	SILLY.doIt($('#results'));
+});
+$('#clear').click(function(){
+
+	$('#results').html('');
+
+});
+</script>
+
+</body>
+</html>
