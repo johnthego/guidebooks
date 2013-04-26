@@ -6,8 +6,7 @@
 
 	<name>Superfunny</name>
 
-	<description>
-the way to have fun nearby you</description>
+	<description>the way to have fun nearby you</description>
 
 	<author href="http://johnthego.github.com"
 		email="gf@xeel.uk">
@@ -16,21 +15,21 @@ the way to have fun nearby you</description>
 
 	<gap:platforms>
 		<gap:platform name="android" minVersion="2.1" />
+	</gap:platforms>
 		<!--gap:platform name="webos" />
 		<gap:platform name="symbian.wrt" />
 		<gap:platform name="blackberry" project="widgets"/-->
-	</gap:platforms>
 
 	<preference name="orientation" value="landscape" />
 	<preference name="splash-screen-duration" value="3000" />
 	<icon src="blurry.png" gap:role="default" />
 
-    <gap:splash src="weirdo.png" />
+    <gap:splash src="splash/android/ldpi.png" />
 
-	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 36 pixels -->
+	<!--icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 36 pixels -->
     <icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 48 pixels -->
     <icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> <!-- 72 pixels -->
-    <icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> <!-- 96 pixels -->
+    <icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /--> <!-- 96 pixels -->
      
    <gap:splash src="splash.png" /> <!-- default 320x480 pixels -->
         
