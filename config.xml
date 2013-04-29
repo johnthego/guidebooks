@@ -20,7 +20,7 @@
 		<gap:platform name="symbian.wrt" />
 		<gap:platform name="blackberry" project="widgets"/-->
 
-	<preference name="orientation" value="landscape" />
+	<preference name="orientation" value="portrait" />
 	<preference name="splash-screen-duration" value="3000" />
 	<icon src="blurry.png" gap:role="default" />
 
@@ -31,8 +31,9 @@
     <icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> <!-- 72 pixels -->
     <icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> <!-- 96 pixels -->
      
-   <gap:splash src="splash.png" /> <!-- default 320x480 pixels -->
-        
+	 <preference name="auto-hide-splash-screen" value="false" />
+
+       
         
     <gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 200x320 -->
     <gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 320x480 -->
