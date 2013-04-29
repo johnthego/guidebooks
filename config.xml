@@ -21,7 +21,6 @@
 		<gap:platform name="blackberry" project="widgets"/-->
 
 	<preference name="orientation" value="portrait" />
-	<preference name="splash-screen-duration" value="3000" />
 	<icon src="blurry.png" gap:role="default" />
 
     <gap:splash src="splash/android/ldpi.png" />
@@ -33,7 +32,11 @@
      
 	 <preference name="auto-hide-splash-screen" value="false" />
 
-       
+    <preference name="phonegap-version"                                     value="2.5.0" />
+    <preference name="fullscreen"                                           value="true" />
+    <preference name="exit-on-suspend"                                      value="true" />
+    <preference name="splash-screen-duration"                               value="10000" />
+    <preference name="webviewbounce"                                        value="true" />
         
     <gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 200x320 -->
     <gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 320x480 -->
